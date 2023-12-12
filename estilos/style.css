@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+section {
+    text-align: center;
+}
+
+section#img01 {
+    position: relative;
+    background-image: url(../Imagens/img01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    height: 50rem;
+}
+
+h1#textimg1 {
+    position: absolute;
+    display: inline;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+#section-light {
+    background-color: white;
+    padding: 3em;
+}
+
+p {
+    display: inline-block;
+    max-width: 450px;
+    padding-top: 30px;
+}
+
+section#img02 {
+    position: relative;
+    background-image: url(../Imagens/img02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    height: 20rem;
+}
+
+section#img02 > h1.textimg {
+    position: absolute;
+    display: inline;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.section-dark {
+    background-color: #282E34;
+    color: #fff;
+    padding: 3rem;
+}
+
+section#img03 {
+    position: relative;
+    background-image: url(../Imagens/img03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    height: 20rem;
+}
+
+section#img03 > h1.textimg {
+    position: absolute;
+    display: inline;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 400;
+    letter-spacing: 5px;}
+
+section#img04 {
+    background-image: url(../Imagens/img01.jpg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    height: 50rem;
+}
+
+#textimg2 {
+    position: absolute;
+    display: inline;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #666;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 5px;
+}
